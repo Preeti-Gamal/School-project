@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>School project</title>
+    <!-- css stylesheet -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <Font Awsome> -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Title Section -->
+
+    <section id="title">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href=""> </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <img class="logo" src="sch logo.png" alt="sch-img" />
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ms-auto">
+            <!-- <li class="nav-item">
+              <img class="logo" src="sch logo.png" alt="sch-img" />
+              </li> -->
+            <!-- </li> -->
+
+            <li class="nav-item">
+              <a class="nav-link active" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about us">ABOUT US</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#slider">SERVICE</a>
+            </li>
+            <li class="nav-item">
+              <!-- <a class="nav-link" href="#">COURSES</a> -->
+              <div class="dropdown">
+                <button
+                  class="btn dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  COURSES
+                </button>
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li>
+                    <a class="dropdown-item" href="#courses">Management</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#sci">Science</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#law">Law</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#arts"
+                      >Humanities and arts</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">CONTACT</a>
+            </li>
+
+            <!-- <li class="nav-item">
+              <button type="button" class="btn btn-info">LOG IN</button>
+            </li>  -->
+          </ul>
+          <button type="button" class="btn btn-info">LOG IN</button>
+        </div>
+      </nav>
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>ONLINE</h1>
+          <h3>EDUCATION</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum
+            corrupti maxime non vitae error eos, consequuntur libero quam alias
+            voluptatem quisquam enim quos illum tempore! Quibusdam, neque
+            officia? Voluptatem, dolor.
+          </p>
+          <button type="button" class="btn btn-info">LEARN MORE</button>
+          <div class="col-lg-6">
+            <img class="photo" src="online reading.png" alt="photo" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+
+    <section id="features">
+      <div class="row">
+        <div class="features col-lg-4">
+          <h1>Clear and Shared focus</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+            repellendus facilis illo.
+          </p>
+        </div>
+        <div class="features col-lg-4">
+          <h1>Effective School Leadership</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et
+            nesciunt culpa quidem! Doloremque unde
+          </p>
+        </div>
+        <div class="features col-lg-4">
+          <h1>Learning Environment</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non
+            expedita, omnis est
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide Section -->
+    <section id="slider">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>Communication Skill</h2>
+            <img src="communi.png" class="slide-img" alt=communi-img" />
+          </div>
+          <div class="carousel-item">
+            <h2>Buildup Confidence</h2>
+            <img src="confi.png" class="slide-img" alt="confi-img" />
+          </div>
+          ...
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section id="about us">
+      <div class="row">
+        <div class="col-lg-4">
+          <h2>The Principle</h2>
+          <img class="image" src="princi12.jpg" alt="princi12-img" />
+          <em>Mr.John Smith</em>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum
+            inventore eligendi, qui, quasi sequi voluptatum, natus itaque enim
+            odit necessitatibus quas nobis. Rerum placeat tempore aut aliquid
+            cum recusandae vel? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit.
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <h2>Vice Principle</h2>
+          <img class="image" src="lady-img.jpg" alt="vice p-img" />
+          <em>Ms.Angela Jolie</em>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo facere
+            cupiditate vero ea molestiae nulla fugit dolore a veritatis
+            perferendis, esse ullam dolorem corporis sit molestias aperiam
+            earum? Quia, veritatis?
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <h2>Teachers</h2>
+          <img class="image" src="teacher.jpg" alt="teacher-img" />
+          <em>Mr.Jermiah Jonas</em>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+            ex quisquam dolores ipsa voluptas aliquam saepe quam reprehenderit
+            ut minus? Atque velit aperiam, doloremque et illum pariatur neque
+            accusantium sit. Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Sunt modi nam dolorum.
+          </p>
+        </div>
+      </div>
+    </section>
+    <div id="courses">
+      <h1>THE COURSES AVAILABLE IN OUR SCHOOL/COLLAGE</h1>
+      <h2 class="test">MANAGEMENT</h2>
+      <p class="poo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae repellat
+        pariatur numquam doloribus inventore totam minima dicta nesciunt!
+        Perferendis voluptates voluptate temporibus, enim iste explicabo a esse
+        facere commodi? Delectus!
+      </p>
+    </div>
+    <div id="sci">
+      <h2 class="test">SCIENCE</h2>
+      <p class="poo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae repellat
+        pariatur numquam doloribus inventore totam minima dicta nesciunt!
+        Perferendis voluptates voluptate temporibus, enim iste explicabo a esse
+        facere commodi? Delectus! Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit. Reprehenderit provident dolor necessitatibus modi
+        atque reiciendis aliquam ullam cupiditate eius eaque? Totam quaerat eius
+        explicabo, quam doloremque cupiditate similique.
+      </p>
+    </div>
+    <div id="law">
+      <h2 class="test">LAW</h2>
+      <p class="poo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae repellat
+        pariatur numquam doloribus inventore totam minima dicta nesciunt!
+        Perferendis voluptates voluptate temporibus, enim iste explicabo a esse
+        facere commodi? Delectus Lorem, ipsum dolor sit amet consectetur
+        adipisicing elit. Commodi, eum sit? Voluptates, explicabo dolor nobis
+        ipsam facere amet modi ea numquam aut corrupti dicta? Reprehenderit
+        totam dicta aliquid sunt esse.
+      </p>
+    </div>
+    <div id="arts">
+      <h2 class="test">ARTS AND HUMANITIES</h2>
+      <p class="poo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae repellat
+        pariatur numquam doloribus inventore totam minima dicta nesciunt!
+        Perferendis voluptates voluptate temporibus, enim iste explicabo a esse
+        facere commodi? Delectus! Lorem ipsum dolor sit amet consectetur
+        adipisicing elit.
+      </p>
+    </div>
+    <div class="admission">
+      <button type="button" class="btn btn-danger btn-lg">ADMISSION NOW</button>
+    </div>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <i class="social-icon fa-brands fa-facebook"></i>
+      <i class="social-icon fa-brands fa-twitter"></i>
+      <i class="social-icon fa-brands fa-instagram"></i>
+      <!-- s -->
+      <p>© Copyright 2022 ABKEDU</p>
+    </footer>
+  </body>
+</html>

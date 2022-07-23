@@ -1,0 +1,145 @@
+body {
+  background-color: #e4dccf;
+}
+/* #title {
+  background-color: #227c88;
+} */
+
+.photo {
+  position: absolute;
+
+  left: 48%;
+  width: 50%;
+  top: 18%;
+}
+h1 {
+  font-size: 70px;
+  padding-top: 5%;
+  margin-left: 10%;
+  color: #227c88;
+}
+nav ul {
+  margin-right: 40px;
+}
+
+/* nav ul li a {
+  margin-right: 20px;
+} */
+p {
+  padding: 5%;
+  margin-left: 7%;
+  color: #808080;
+}
+h3 {
+  margin-left: 10%;
+  font-size: 40px;
+  color: #227c88;
+}
+.btn {
+  margin-left: 10%;
+}
+/* .btnn{
+  right: 50px;
+} */
+.logo {
+  height: 90px;
+  width: 90px;
+  margin-left: 25px;
+}
+.logo img:hover {
+  height: 95px;
+  width: 95px;
+  cursor: pointer;
+}
+/* .container-fluid {
+  padding: 3% 6% 7%;
+} */
+.nav-link {
+  margin-right: 55px;
+}
+.nav-link:hover {
+  background-color: #5ee2ee;
+  border-radius: 15px;
+  transition: 800ms;
+  transform: rotate(360deg);
+}
+#features h1 {
+  font-size: 40px;
+}
+#features {
+  margin-top: 200px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+#slider {
+  /* background-color: #e4dccf; */
+  text-align: center;
+  color: #227c88;
+  margin-bottom: 40px;
+}
+.slide-img {
+  height: 80%;
+  width: 80%;
+  /* border-radius: 100%; */
+}
+#slider h2 {
+  margin-top: -40px;
+  margin-bottom: 50px;
+  padding: 7% 10%;
+}
+.dropdown {
+  margin-right: 40px;
+}
+/* .dropdown .btn {
+  transform: rotate(360deg);
+} */
+
+h2 {
+  margin-left: 8%;
+  font-size: 40px;
+  color: #227c88;
+  margin-top: 150px;
+}
+.image {
+  border-radius: 100%;
+  width: 80px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+/* @media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  } */
+.admission {
+  /* text-align: center; */
+  margin-left: 38%;
+  margin-top: 20%;
+  font-family: bolder;
+}
+#courses {
+  margin-top: 3%;
+}
+.test {
+  margin-bottom: -2%;
+}
+.poo {
+  margin-bottom: -10%;
+}
+#footer {
+  text-align: center;
+  margin-top: 150px;
+}
+.social-icon {
+  margin-left: 2%;
+  /* text-align: center; */
+}
+#footer p {
+  margin-top: -3%;
+  margin-right: 4%;
+}
+.btn {
+  margin-right: 7%;
+}
